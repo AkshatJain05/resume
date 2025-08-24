@@ -85,17 +85,17 @@ const App = () => {
             <div className="flex justify-end items-center pt-4 space-x-4">
               <button
                 onClick={handleReset}
-                className="flex items-center space-x-2 px-6 py-3 bg-gray-600 text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors duration-300 shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                className="flex items-center space-x-2 px-3 py-3 bg-gray-600 text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors duration-300 shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
               >
                 <FaUndo />
                 <span>Reset</span>
               </button>
               <button
                 onClick={handlePrintAndSave}
-                className="flex items-center space-x-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-300 shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                className="flex items-center space-x-2 px-4 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-300 shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
               >
                 <FaPrint />
-                <span>Save as PDF / Print</span>
+                <span>Save as PDF/Print</span>
               </button>
             </div>
           </div>
