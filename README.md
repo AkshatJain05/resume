@@ -1,7 +1,7 @@
 # 📄 Resume Builder
 
 A modern **Resume Builder Web App** built with **React, Tailwind CSS, Motion, React Icons, and React Hot Toast**.  
-It allows users to create, preview, save and print professional resume that are ** responsive, and beautifully designed**.  
+It allows users to create, preview, save and print professional resume that are **responsive, and beautifully designed**.  
 
 ---
 
