@@ -44,18 +44,18 @@ const App = () => {
       <span>
         ⚠️ Reset all fields?
         <button
-          className="ml-3 px-3 py-1 bg-red-600 text-white rounded"
+          className="ml-3 px-3 py-1 bg-green-500 text-white rounded"
           onClick={() => {
             setResumeData(initialResumeData);
-            toast.dismiss(t.id);
-            toast.success("All fields reset ✅");
-            toast.dismiss(t);
+            // toast.dismiss(t.id);
+            // toast.success("All fields reset ✅");
+            toast.dismiss();
           }}
         >
           Yes
         </button>
         <button
-          className="ml-2 px-3 py-1 bg-gray-400 text-white rounded"
+          className="ml-2 px-3 py-1 bg-gray-500 text-white rounded"
           onClick={() => toast.dismiss(t.id)}
         >
           No
