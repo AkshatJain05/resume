@@ -8,8 +8,7 @@ import Projects from "./components/Projects";
 import ResumePreview from "./components/ResumePreview";
 import { FaPrint, FaUndo } from "react-icons/fa";
 import "./print.css";
-
-import { Toaster, toast } from "react-hot-toast";
+import {Toaster, toast } from "react-hot-toast";
 
 const initialResumeData = {
   personalInfo: {
@@ -50,6 +49,7 @@ const App = () => {
             setResumeData(initialResumeData);
             toast.dismiss(t.id);
             toast.success("All fields reset ✅");
+            toast.dismiss(t);
           }}
         >
           Yes
